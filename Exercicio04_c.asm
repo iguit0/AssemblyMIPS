@@ -18,7 +18,7 @@ addi $s1, $zero, 8 # b=8
 addi $s2, $zero, 4 # c=4
 addi $s3, $zero, 4 # d=4
 
-# CÒDIGO: 
+# CÓDIGO: 
     
     slt $t0, $s0, $s1  
     beq $t0, $zero, ELSE

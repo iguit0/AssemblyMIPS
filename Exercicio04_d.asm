@@ -4,7 +4,7 @@
 #   a = a + b + c; 
 #   v[8] = v[8] + a;
 # else
-#   a = a - b – c;
+#   a = a - b - c;
 #   v[8] = v[8] + a;
 # ------------
 # $s0 -> a
@@ -24,7 +24,7 @@ addi $s6, $zero, 32 # v[0]
 addi $t0, $zero, 7 
 sw $t0, 32($s6) # v[8] = 7
 
-# CÒDIGO: 
+# CÓDIGO: 
 
 lw $t0, 32($s6)
     slt $t1, $s0, $t0  
